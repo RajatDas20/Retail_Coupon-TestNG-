@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65825" started-at="2022-03-11T12:01:36Z" finished-at="2022-03-11T12:02:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65825" started-at="2022-03-11T12:01:36Z" finished-at="2022-03-11T12:02:41Z">
+      <class name="IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon">
+        <test-method status="PASS" signature="setProperty()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="setProperty" is-config="true" duration-ms="6" started-at="2022-03-11T17:31:36Z" finished-at="2022-03-11T17:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="CouponSection()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="CouponSection" is-config="true" duration-ms="14731" started-at="2022-03-11T17:31:36Z" finished-at="2022-03-11T17:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CouponSection -->
+        <test-method status="PASS" signature="addNew(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="addNew" duration-ms="4087" started-at="2022-03-11T17:31:50Z" data-provider="Coupon Details" finished-at="2022-03-11T17:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[You are great , you deserve thisPJKSZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[win3910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1711]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5066]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNew -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="exit" is-config="true" duration-ms="3885" started-at="2022-03-11T17:31:54Z" finished-at="2022-03-11T17:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="CouponSection()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="CouponSection" is-config="true" duration-ms="12134" started-at="2022-03-11T17:31:58Z" finished-at="2022-03-11T17:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CouponSection -->
+        <test-method status="PASS" signature="edit()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="edit" duration-ms="5079" started-at="2022-03-11T17:32:10Z" depends-on-methods="IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon.addNew" finished-at="2022-03-11T17:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="exit" is-config="true" duration-ms="3848" started-at="2022-03-11T17:32:15Z" finished-at="2022-03-11T17:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="CouponSection()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="CouponSection" is-config="true" duration-ms="11890" started-at="2022-03-11T17:32:19Z" finished-at="2022-03-11T17:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CouponSection -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="delete" duration-ms="6281" started-at="2022-03-11T17:32:31Z" depends-on-methods="IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon.addNew" finished-at="2022-03-11T17:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon@d7b1517]" name="exit" is-config="true" duration-ms="3871" started-at="2022-03-11T17:32:37Z" finished-at="2022-03-11T17:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- IBM_Assessment.Retail_Coupon_TestNG.Retail_Coupon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
