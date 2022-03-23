@@ -65,9 +65,9 @@ public class Retail_Coupon {
 			driver.findElement(By.id("input-password")).sendKeys("Admin@123");
 			Thread.sleep(1000);
 
-			driver.findElement(By.id("input-password")).sendKeys(Keys.ENTER);
-			// driver.findElement(By.xpath("//button[@type =
-			// 'submit']")).click();
+// 			driver.findElement(By.id("input-password")).sendKeys(Keys.ENTER);
+			driver.findElement(By.xpath("//button[@type =
+			'submit']")).click();
 			Thread.sleep(2000);
 			System.out.println("Logged in ->");
 
